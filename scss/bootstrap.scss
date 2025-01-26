@@ -1,0 +1,53 @@
+// Font
+$font-family-sans-serif: 'Open Sans', sans-serif;
+
+
+$primary : #c167ef;
+$secondary :#10bceeee;
+$dark : #2b3041;
+$light  : #f3f6f9;
+// halkaan waxaa kabarty in variables ka baari kartid waxawlbo oo aad rbto 
+// Navbar
+
+
+
+$button-radius : 50px;
+$button-radius-x : 10px;
+$button-radius-y : 30px;
+
+
+
+// 
+$navbar-padding-y: 1rem;
+$navbar-dark-color : #fff;
+$navbar-dark-hover-color : $secondary;
+$btn-border-radius:$button-radius;
+$btn-border-radius-sm:$button-radius;
+$btn-border-radius-lg:$button-radius;
+$btn-padding-x:$button-radius-x;
+$btn-padding-x-sm:$button-radius-x;
+$btn-padding-x-lg:$button-radius-x;
+$btn-padding-y:$button-radius-y;
+$btn-padding-ylg:$button-radius-y;
+$btn-padding-y-sm:$button-radius-y;
+// navbar btnka kudhexjira
+$navbar-toggler-border-radius : 5px;
+
+// Spaceros
+
+$spacer: 1rem !default;
+$spacers: (
+  0: 0,
+  1: $spacer * .25,
+  2: $spacer * .5,
+  3: $spacer,
+  4: $spacer * 1.5,
+  5: $spacer * 3,
+  6: $spacer * 6,
+  7: $spacer * 8,
+  8: $spacer * 12,
+) !default;
+$enable-negative-margins : true;
+$line-height: 1.7;
+$heading-bottom-space : 1*$spacer;
+@import '../node_modules/bootstrap/scss/bootstrap';
